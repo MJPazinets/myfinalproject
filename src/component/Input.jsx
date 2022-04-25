@@ -10,7 +10,7 @@ const Input = () => {
         const res = await axios.get(url)
         if(res){
             // const responseJson = await res.data.json()
-            setResults(res.data[0].meta.syns)
+            setResults(res.data[0].meta.syns[0])
         }
     }
     
