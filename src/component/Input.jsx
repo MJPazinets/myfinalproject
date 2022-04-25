@@ -18,6 +18,13 @@ const Input = () => {
         <div>
         <input value={input} onChange={(event) => setInput(event.target.value)}  />
         <button onClick={submitThes}>Find Your New Word</button>
+        <ul>
+            {results.map(syn => {
+                return(
+                    <li></li>
+                )
+            })}
+        </ul>
         </div> 
     ) 
 
