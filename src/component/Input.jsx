@@ -10,7 +10,7 @@ const Input = () => {
         const res = await axios.get(url)
         if(res){
             // const responseJson = await res.data.json()
-            console.log(res.data[0].meta.syns)
+            setResults(res.data[0].meta.syns)
         }
     }
     
@@ -21,7 +21,7 @@ const Input = () => {
         <ul>
             {results.map(syn => {
                 return(
-                    <li></li>
+                    <li>{syn}</li>
                 )
             })}
         </ul>
