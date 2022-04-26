@@ -20,8 +20,8 @@ const Input = () => {
     return(
         <div>
         <input value={input} onChange={(event) => setInput(event.target.value)}  />
-        <button onClick={submitThes}>Find Your New Word</button>
-        <button onClick={clear}>Clean this up!</button>
+        <button class="submit" onClick={submitThes}>Find Your New Word</button>
+        <button class="clear" onClick={clear}>Clean this up!</button>
 
         <ul>
             {results.map(syn => {
