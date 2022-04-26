@@ -54,6 +54,7 @@
 }
 .clear:hover {
   background-color: rgb(169, 20, 20);
+  cursor: pointer;
 }
 
 ul {

@@ -6,7 +6,7 @@ function App() {
   return (
     
     <div className="App">
-      <h1>The Thesaurus Button</h1>
+      <h1>The Thesaurus Loader</h1>
       <Input />
     </div>
   );
