@@ -47,3 +47,10 @@
   display: inline-block;
   font-size: 16px;
 }
+.submit:hover {
+  background-color: rgb(169, 20, 20);
+}
+
+ul {
+  list-style-type: none;
+}
