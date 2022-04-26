@@ -39,7 +39,7 @@
 
 .submit {
   background-color: #ee3f18; /* Green */
-  border: black;
+  border: 1px solid black;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -48,6 +48,20 @@
   font-size: 16px;
 }
 .submit:hover {
+  background-color: rgb(169, 20, 20);
+}
+
+.clear {
+  background-color: #ee3f18; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.clear:hover {
   background-color: rgb(169, 20, 20);
 }
 
