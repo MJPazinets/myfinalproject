@@ -18,11 +18,12 @@ const Input = () => {
     }
     
     return(
-        <div>
+        <div className="wrap">
         <input value={input} onChange={(event) => setInput(event.target.value)}  />
+        <div>
         <button className="submit" onClick={submitThes}>Find Your New Word</button>
         <button className="clear" onClick={clear}>Clean this up!</button>
-
+        </div>
         <ul>
             {results.map(syn => {
                 return(

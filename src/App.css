@@ -68,3 +68,11 @@
 ul {
   list-style-type: none;
 }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 300px;
+}
