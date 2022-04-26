@@ -37,23 +37,14 @@
   }
 }
 
-.submit {
-  background-color: #ee3f18; /* Green */
-  border: 1px solid black;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.submit:hover {
-  background-color: rgb(169, 20, 20);
+.btns {
+  margin-top: 2em;
 }
 
 .clear {
   background-color: #ee3f18; /* Green */
   border: 1px solid black;
+  border-radius: 10px;
   color: black;
   padding: 15px 32px;
   text-align: center;
